@@ -1,0 +1,667 @@
+/*
+footer, about us color #fff9f8
+copyright © 2020 Cheongsam
+*/
+/*header .nav-item.active .nav-link{
+    color: #ffc5c9;
+}
+*/
+/*FONT FAMILSY*/
+@font-face {
+	font-family: 'Bodoni';
+	src: url('../css/fonts/bodoni-mt.ttf'); 
+}
+h1,h2,h3 ,a{
+    font-family: 'bodoni-mt';
+}
+.text-gold{
+    color:#d5af34;
+}
+body{
+    background-color:#ffff;
+    font-family: 'century gothic';
+}
+p{
+text-align: justify;
+font-family: 'century gothic';
+
+font-size: 1.5rem;
+}
+
+header{
+    background:url(../images/main.jpg);
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    padding: 2.1rem 7%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+    padding-left: .5rem;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: 'bodoni-mt';
+}
+.navbar-nav .nav-link:hover {
+    color: #d5af34 !important;
+}
+.bg-light{
+    background-color: rgba(255, 255, 255) !important;
+    opacity: 70%;
+}
+.navbar-nav .nav-item.active .nav-link {
+    color: #d5af34 !important;
+}
+
+.logo_box{
+    width:10rem;
+    height:10rem;
+    border-radius: 50%;
+    position: absolute;
+    top:-1.6rem;
+    left: 50%;
+    z-index: 999;
+    transform:translate(-50%,0);
+}
+.logo{
+   width:100%;
+}
+
+
+.logo span{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*first section*/
+.bread_crumbs{
+    padding: 2rem 0;
+}
+.bread_crumbs_list{
+    list-style:none;
+}
+.bread_crumbs_list li{
+    display: inline;
+    font-size:1.5rem;
+}
+.bread_crumbs_list li+li:before{
+    padding:8px;
+    color: black;
+    content:">\00a0";
+}
+.bread_crumbs_list li a{
+    text-decoration: none;
+    color:#000;
+    transition: all .2s;
+    font-weight: 500;
+}
+
+.bread_crumbs_list li a:hover{
+    color:#b93e40;
+}
+.first-section{
+    padding:5rem 0 0;
+    text-align: center;
+    background-color: #6b2425;
+}
+.first-section .info p{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.first-section .container{
+    position: relative;
+    width: 100%;
+}
+
+.first-section .col-md-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top:0;
+    left:0;
+}
+.first-section .slider-info{
+    margin-left: 27rem;
+}
+.first-section .col-md-5 img{
+    width:78%;
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #6b2425;
+}
+
+/*full imge section*/
+.full-img{
+height:auto;
+background-image:url(../images/10081.jpg);
+background-position: 70%;
+background-size: cover;
+}
+.full-img-p{
+    padding: 3rem 1rem 3rem;
+    font-size: 1.4rem;
+}
+
+/*about*/
+.about{
+    border-radius: 5px;
+    padding:1rem 0 0;
+
+}
+.about p{
+  margin:1rem auto;
+  padding: 1.2rem 15%;
+  text-align:center;
+color: black;
+font-weight: 400;
+}
+.soical{
+    padding-top: 1rem;
+}
+.social_list{
+    list-style:none;
+    padding-left: 0;
+}
+.social_list li{
+    display: inline-block;
+    background-color:#b93e40 ;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+    margin:.5rem .7rem;
+    transition: all .4s;
+}
+.social_list li:hover{
+    opacity:.5;
+    transform: translateY(-2px);
+}
+.social_list li i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+/*footer*/
+footer{
+    margin-top:0;
+    padding:2.5rem 0;
+    background-color:#fff9f8;
+    color:gray;
+}
+footer .links{
+    list-style: none;
+    padding-left: 0;
+}
+footer p{
+    text-align: center;
+    padding:.5 0;
+}
+footer .links li{
+    display: inline-block;
+    padding:.5rem 2rem;
+    font-size: 1.4rem;
+} 
+footer .links li a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: 'bodoni-mt';
+}
+footer .links li a:hover{
+    color:#d5af34;
+}
+
+/*start fashion page*/
+.Fashion-video{
+    height:auto;
+}
+.Fashion-video .video-info p{
+    padding: 1rem 4rem;
+}
+.fashion-section{
+    height: 60rem;
+    padding:5rem 0 0;
+    background-color:none;
+}
+.fashion-section .info{
+    background-color:#b93e40;
+    padding:5rem 1rem;
+    margin-top:10rem;
+    margin-left: -2rem;
+}
+.fashion-section .info p{
+padding-bottom: 1rem;
+font-size:1.2rem;
+}
+/* End fashion page*/
+/*start history page*/
+.video-section{
+height:auto;
+padding:2rem 0;
+}
+.video-section p{
+    padding:1rem 0;
+} 
+.video-section h2{
+    margin:1.5rem 0;
+} 
+.bg-video{
+    width: 100%;
+    height: 100%;
+}
+.video{
+    width: 100%;
+    object-fit: cover;
+}
+.video-section .list{
+    padding-left: 0;
+    list-style: none;
+}
+.video-section .list li{
+padding:1rem 1rem;
+}
+/*End history page*/
+
+/*Start contact  page*/
+.form-section{
+    margin: 0 0 3rem;
+    padding:1rem 0;
+}
+.form-section h2{
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+.form-section p{
+    margin:3rem;
+    font-weight: 450;
+}
+.form-section input{
+    margin:1rem 0;
+}
+.form-section button,.form-section button:visited{
+    background-color: #6b2425;
+    font-size: 1.5rem;
+    color:#fff;
+    border: none;
+    padding:.2rem 3.5rem;
+    text-transform: uppercase;
+    border-radius:2.2rem;
+    margin-top: 1rem;
+    transition: all .4s;
+}
+.form-section button:hover{
+    background-color: #d5af34;
+    transform: translateY(-4px);
+}
+/*End contact  page*/
+
+/*Start shop  page*/
+.pills .pills_list{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+.pills .pills_list li{
+    display: inline-flex;
+    padding:1rem 4rem;
+    background-color: #6b2425;
+    border-radius: 3rem;
+    margin:1rem 1rem;
+    transition: all .4s;
+}
+.pills .pills_list li a,.pills .pills_list li a:visited{
+font-size: 1.5rem;
+text-decoration: none;
+color: #fff;
+}
+.pills .pills_list li.active{
+    background-color: #d5af34 !important;
+}
+.pills .pills_list li:hover{
+    background-color: #d5af34;
+    transform: translateY(-4px);
+}
+.first-section-shop .section-one{
+background-color: #ffc5c9;
+padding:3rem 0;
+}
+.first-section-shop .section-one .larg-img{
+    background-color: #b93e40;
+    height: 40rem;
+    padding-left: 7rem;
+    padding-top: 10rem;
+}
+.first-section-shop .section-one .larg-img button{
+    background-color: #fff;
+    padding:.5rem 2rem;
+    border: none;
+}
+.first-section-shop .section-one .larg-img button a{
+    text-decoration: none;
+    color:black; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.first-section-shop .section-one .heading-s{
+    margin: 1rem 0;
+    color:#eee;
+}
+.first-section-shop .section-one .heading-l{
+    margin:2.5rem 0;
+}
+.first-section-shop .section-one .row{
+    position: relative;
+}
+.first-section-shop .section-one .small-img{
+    position: absolute;
+    top: 89px;
+    left: 60px;
+    height: 27rem;
+    z-index: 999;
+    width: 100%;
+}
+.first-section-shop .section-tow{
+    height: auto;
+    padding-bottom: 2rem;
+    background-image: url(../images/441.jpg);
+    background-position: top;
+    background-size:cover;
+}
+.first-section-shop .section-tow h3,p{
+    padding:3rem 0 0;
+}
+/*End shop  page*/
+
+@media (max-width: 992px)
+{
+    .fashion-section .info{
+        padding:1rem 1rem;
+        margin-top:1rem;
+    }
+    .fashion-section .info p{
+    font-size:1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 1.3rem;
+    }
+    .navbar {
+        padding: 1.7rem 1%;
+    }
+    .logo_box {
+        top: -1.4rem;
+    }
+    .logo{
+        width:85%;
+    }
+    iframe{
+        height: 25rem;
+    }
+    .bread_crumbs_list li{
+        display: inline;
+        font-size: 1rem;
+    }
+    .pills .pills_list li{
+        padding: 1rem 2rem;
+    }
+    .pills .pills_list li a{
+        font-size:1rem;
+    }
+    .first-section .slider-info {
+        margin-left: 20rem;
+    }
+    .first-section .info p {
+        font-size: 1.2rem;
+    }
+ 
+    .first-section-shop .section-one .larg-img {
+        height: 30rem;
+    }
+    .about p{
+        width:100%;
+    }
+    .logo{
+        top:-1.7rem;
+    }
+    .logo img{
+        width: 120px;
+        height: 120px;
+    }
+
+p{font-size: 1rem;}
+footer .links li{
+    padding:.3rem 1rem;
+    font-size: 1.2rem;
+} 
+.first-section .col-md-5 img {
+    width: 100%;
+}
+
+.full-img-p {
+    padding: 5rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 767px)
+{
+    iframe{
+        height: 25rem;
+    }
+    .form-section h2 {
+        margin: 0rem 0;
+        font-size: 2rem;
+    }
+    .form-section p {
+        margin: 1rem;
+    }
+    .form-section button, .form-section button:visited {
+        font-size:1.3rem;
+    }
+    .logo{
+        top:-1.9rem;
+    }
+
+    .full-img p{
+        padding:8rem 2rem .6rem;
+    }
+    p{font-size: .9rem;}
+    footer{
+        padding:.5rem 0;
+    }
+    footer .links li{
+        padding:.2rem .2rem;
+    } 
+    footer .links li a {
+        font-size: 1rem;
+    }
+    footer img{
+        width:150px;
+    }
+    .first-section .container{
+        height: auto;
+    }
+   
+    .info{
+        width: 90%;
+        top:-6rem;
+        right:4%;
+        z-index: 999;
+    }
+    .info p{
+        font-size: 1rem;
+    }
+    .first-section {
+        padding: 3rem 0 0;
+        }
+    .first-section .col-md-5{
+        left:-3rem;
+    }
+    .first-section .col-md-5 img{
+        width: 62%;
+    }
+    .first-section .info p {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+    .first-section .slider-info {
+        margin-left: 12rem;
+    }
+    .full-img-p {
+        padding: 0rem 1rem 0rem;
+        font-size: 1.2rem;
+    }
+
+    .first-section-shop .section-one .small-img {
+        top:60px;
+        left:95px;
+    }
+    .first-section-shop .section-one .larg-img {
+        height: 19rem;
+        padding: 4rem 3rem;
+    
+    }
+    .first-section-shop .section-one .heading-s{
+        margin:.2rem 0;
+        color:#eee;
+        font-size: 1rem;
+    }
+    .first-section-shop .section-one .heading-l{
+        margin:1rem 0;
+        font-size: 1.2rem;
+
+    }
+    .first-section-shop .section-one .larg-img button {
+        background-color: #fff;
+        padding: 0.1rem 1rem;
+    }
+    .first-section-shop .section-one .larg-img button a{
+        font-size: 1rem;
+    }
+    
+
+.about p {
+    padding: 1rem 7%;
+}
+.social_list li {
+    width: 3rem;
+    height: 3rem;
+}
+.Fashion-video .video-info p {
+    padding: 1rem 1rem;
+}
+.fashion-section img{
+    width: 60%;
+}
+
+}
+@media (max-width: 575px)
+{
+    iframe{
+        height: 15rem;
+    }
+    .form-section button, .form-section button:visited {
+        font-size: 1.5rem;
+        padding: 0.2rem 2.5rem;
+    }
+    footer .links li a {
+        font-size: .8rem;
+    }
+    footer img{
+        width:120px;
+        height: 120px;
+    }
+    .first-section-shop .section-one .small-img {
+        width: 50%;
+        left: 2%;
+        top:1rem;
+    }
+    .first-section-shop .section-one .larg-img {
+        height: 19rem;
+        padding: 2rem 0;
+        padding-left: 50%;
+    }
+    .pills .pills_list li:first-child{
+        padding: .7rem;
+    }
+    .pills .pills_list li {
+        padding: 0.7rem 2%;
+    }
+
+    .info p{
+        font-size:1rem;
+    }
+    .full-img p{
+        padding:7rem 2rem 1rem;
+    }
+ 
+    p{font-size: .8rem;}
+    footer .links li{
+        padding:.1rem .5rem;
+        font-size: .9rem;
+    } 
+    .first-section .col-md-5 img {
+        width:10rem;
+    }
+    .first-section .col-md-5 {
+        left: -27%;
+    }
+    .first-section .info p {
+        font-size:.9rem;
+    }
+    
+}
+@media (max-width: 400px){
+    .first-section .info p {
+        font-size: .6rem;
+        padding:1rem 0;
+    }
+    .first-section .col-md-5 {
+        left: -23%;
+    }
+    .first-section .slider-info {
+        margin-left: 12rem;
+    }
+    footer .links li{
+        padding: 0.1rem .2rem;
+    }
+    footer .links li a {
+        font-size: .8rem;
+    }
+    footer img{
+        width:80px;
+        height:80px;
+    }
+    .pills .pills_list li:first-child{
+        padding: .7rem;
+    }
+    .pills .pills_list li {
+        padding: 0.7rem 1.5%;
+    }
+    .pills .pills_list li a, .pills .pills_list li a:visited {
+        font-size: 1rem;
+    }
+    .pills .pills_list li a, .pills .pills_list li a:visited {
+        font-size: .6rem;
+    }    
+    
+}
