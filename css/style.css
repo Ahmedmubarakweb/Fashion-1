@@ -7,6 +7,31 @@ copyright © 2020 Cheongsam
 }
 */
 /*FONT FAMILSY*/
+.move-up{
+    position: fixed;
+     height:4rem;
+      width: 4rem;
+      border-radius: 50%;
+      background-color: #c02739;
+      bottom:40%;
+      right:3%;
+      transition: all .4s;
+
+  }
+  .move-up i{
+    position: absolute;
+    top:50%;
+    color: #fff;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  .move-up:hover{
+      cursor: pointer;
+      box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.5);
+    background-color: #d5af34;
+    transform: translateY(-3px);
+
+  }
 @font-face {
 	font-family: 'Bodoni';
 	src: url('../css/fonts/bodoni-mt.ttf'); 
@@ -239,8 +264,8 @@ footer .links li a:hover{
     padding: 1rem 4rem;
 }
 .fashion-section{
-    height: 60rem;
-    padding:5rem 0 0;
+    height: auto;
+    padding:5rem 0;
     background-color:none;
 }
 .fashion-section .info{
@@ -464,6 +489,10 @@ footer .links li{
 }
 @media (max-width: 767px)
 {
+    .move-up{
+        height: 3rem;
+        width: 3rem;
+    }
     iframe{
         height: 25rem;
     }
@@ -500,12 +529,8 @@ footer .links li{
     .first-section .container{
         height: auto;
     }
-   
-    .info{
-        width: 90%;
-        top:-6rem;
-        right:4%;
-        z-index: 999;
+    .fashion-section .info{
+        margin-left:0;
     }
     .info p{
         font-size: 1rem;
@@ -566,9 +591,7 @@ footer .links li{
     width: 3rem;
     height: 3rem;
 }
-.Fashion-video .video-info p {
-    padding: 1rem 1rem;
-}
+
 .fashion-section img{
     width: 60%;
 }
@@ -576,6 +599,10 @@ footer .links li{
 }
 @media (max-width: 575px)
 {
+    .move-up{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
     iframe{
         height: 15rem;
     }
