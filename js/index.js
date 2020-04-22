@@ -18,7 +18,7 @@ $('footer img').hover(
 var btnscroll=$('.move-up');
 $(window).scroll(function(){
    //if height is 1000 show the icon else make it hide
-    if($(this).scrollTop()>8000)
+    if($(this).scrollTop()>800)
     btnscroll.show();
     else
     btnscroll.hide();
