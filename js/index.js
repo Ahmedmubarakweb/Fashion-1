@@ -15,9 +15,11 @@ $('footer img').hover(
 );
 
 
-$('.move-up').hide;
 // scroll top button
 var btnscroll=$('.move-up');
+
+//to hide the btn when page is loading
+    btnscroll.hide();
 $(window).scroll(function(){
    //if height is 1000 show the icon else make it hide
     if($(this).scrollTop()>800)
