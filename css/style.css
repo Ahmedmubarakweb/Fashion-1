@@ -33,7 +33,7 @@ copyright © 2020 Cheongsam
 
   }
 @font-face {
-	font-family: 'Bodoni';
+	font-family: 'Bodoni-mt';
 	src: url('../css/fonts/bodoni-mt.ttf'); 
 }
 h1,h2,h3 ,a{
@@ -67,7 +67,7 @@ header{
     padding-left: .5rem;
     color: black;
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.6rem;
     text-transform: capitalize;
     font-family: 'bodoni-mt';
